@@ -1,0 +1,55 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  background: linear-gradient(blue, darkblue);
+}
+
+.container {
+  width: 80%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.boxes {
+  border: 2px solid white;
+  border-radius: 10px;
+  height: 250px;
+  padding: 20px;
+}
+
+#heading-1,
+#heading-2,
+#heading-3 {
+  font-size: 3rem;
+  color: white;
+  margin-top: 20px;
+}
+
+.btn-1,
+.btn-2,
+.btn-3 {
+  color: white;
+  background-color: transparent;
+  border: white 1px solid;
+  margin-top: 40px;
+  padding: 20px 40px 20px 40px;
+  border-radius: 10px;
+  font-size: 2rem;
+}
+
+.greenBg {
+  background-color: green;
+}
